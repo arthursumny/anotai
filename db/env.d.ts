@@ -1,0 +1,8 @@
+declare namespace Cloudflare {
+  interface Env {
+    DB: D1Database;
+    FILES: R2Bucket;
+    APP_MODE?: string;
+    APP_URL?: string;
+  }
+}
